@@ -13,5 +13,5 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: KWCARE-App
+          name: KWCARE
           path: build/app/outputs/flutter-apk/app-release.apk
